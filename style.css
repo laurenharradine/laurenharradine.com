@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Merriweather;
+}
+
+h1 {
+    font-family: Amatic SC;
+    font-size: 5vw;
+    font-weight: 700;
+    color: rgb(75, 32, 7);
+    margin: 0;
+}
+
+body {
+    background-image: url("images/cherryblossomblue.jpg");
+    margin: 0;
+    padding: 0;
+    color: rgb(75, 32, 7);
+    font-size: 2vmin;
+}
+
+#img img{
+    width: 350px;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100vw;
+}
+
+.bground {
+    background-color: rgba(255, 232, 248, 0.5);
+    border-radius: 25px;
+    padding: 30px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 8px 25px 10px rgba(133, 112, 124, 0.5);
+    max-width: 60%;
+}
+
+.btn-grid {
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: hsl(312, 100%, 96%);
+    border: 1px solid hsl(313, 100%, 85%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color:rgb(75, 32, 7);
+    outline: none;
+    transition: background-color 200ms ease-in-out;
+}
+
+.btn:hover {
+    background-color: hsl(313, 100%, 85%);
+    cursor: pointer;
+}
